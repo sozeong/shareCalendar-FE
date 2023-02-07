@@ -1,6 +1,6 @@
 <template>
 	<footer>
-		<p>Copyright 2023. All rights reserved.</p>		
+		<span>Copyright 2023. All rights reserved.</span>		
 	</footer>
 </template>
 
@@ -18,12 +18,11 @@ export default {
 	    bottom: 0;
 	    background-color: #a9a9a9;
 	    width: 100%;
-	    
+	    padding: 10px;
 	}
 	
-	p{
+	span{
 		text-align: left;
-	    padding-left: 10px;
 	    color: #fff;
 	}
 

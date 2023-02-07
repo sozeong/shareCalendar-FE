@@ -7,6 +7,7 @@
 </template>
 
 <script>
+// page
 import Header from './components/common/Header.vue'
 import Footer from './components/common/Footer.vue'
 import Reservation from './components/Reservation.vue'
@@ -16,23 +17,6 @@ import Reservation from './components/Reservation.vue'
 import Vue from 'vue'
 import App from './App'
 
-/* import the fontawesome core */
-import { library } from '@fortawesome/fontawesome-svg-core'
-
-/* import font awesome icon component */
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-
-/* import specific icons */
-import { faCalendarCheck } from '@fortawesome/free-regular-svg-icons'
-import { faClock } from '@fortawesome/free-regular-svg-icons'
-
-/* add icons to the library */
-library.add(faCalendarCheck, faClock)
-
-/* add font awesome icon component */
-Vue.component('font-awesome-icon', FontAwesomeIcon)
-
-Vue.config.productionTip = false
 //-- vue end
 
 export default {
@@ -62,4 +46,9 @@ export default {
 	html, body {
 	  height: 100%;
 	}
+	
+	.pd5{padding: 5px;}
+	.mt10{margin-top: 10px;}
+	.mb10{margin-bottom: 10px;}
+	.fr{float: right;}
 </style>
