@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Header />
-    <Reservation />
-    <Footer />
+	<Header />
+    <Contents />
+	<Footer />
   </div>
 </template>
 
 <script>
 // page
 import Header from './components/common/Header.vue'
+import Contents from './components/common/Contents.vue'
 import Footer from './components/common/Footer.vue'
-import Reservation from './components/Reservation.vue'
 
 // vue
 /* Set up using Vue 2 */
@@ -24,7 +24,7 @@ export default {
   components: {
     Header ,
     Footer ,
-    Reservation
+    Contents
   }
 }
 </script>
